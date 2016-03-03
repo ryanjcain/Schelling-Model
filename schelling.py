@@ -21,6 +21,7 @@ class Person(object):
         self.happiness_threshold = happiness_threshold
         self.move(home)
 
+
     def __repr__(self):
         """
         This is like the __str__() magic method, except that it works in things
@@ -259,3 +260,6 @@ class City(object):
 
 city = City(10, 10, 0.3, 2, [0.45,0.45])
 city.make_plots()
+
+def test():
+    print "hey ryan"
